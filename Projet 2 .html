@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 leagues By Gargour</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        .navbar {
+            background-color: #001A42;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            padding: 10px 0;
+        }
+
+        .navbar .fifa-title {
+            text-align: center;
+            font-size: 40px;
+            color: #FFFFFF;
+            margin: 0; 
+        }
+
+        .navbar ul {
+            list-style-type: none; 
+            padding: 0;
+            margin: 0;
+            display: flex; 
+            justify-content: center; 
+        }
+
+        .navbar li {
+            margin: 0 20px; 
+        }
+
+        .navbar a {
+            text-decoration: none; 
+            color: white; 
+            padding: 10px 20px; 
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: #555; 
+            color: white; 
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            padding-top: 100px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 50px 0;
+        }
+
+        footer {
+            background-color: #001A42;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        
+        #La_Liga, #Bundesliga, #Serie_A, #Ligue_1, #Premier_League {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            height: 400px;
+        }
+        #btn {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #btn:hover {
+        background-color: #0056b3;
+    }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <h1 class="fifa-title">FIFA</h1>
+        <ul>
+            <li><a href="#La_Liga">La Liga</a></li>
+            <li><a href="#Bundesliga">Bundesliga</a></li>
+            <li><a href="#Serie_A">Serie A</a></li>
+            <li><a href="#Ligue_1">Ligue 1</a></li>
+            <li><a href="#Premier_League">Premier League</a></li>
+        </ul>
+    </header>
+
+    <main>
+        
+        
+            <section id="La_Liga">
+                <h2>La Liga</h2>
+                <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <div style="flex: 1; margin-right: 20px;">
+                        <p><strong>Date de fondation :</strong> 1929</p>
+                        <p><strong>Top 3 équipes :</strong></p>
+                        <ul>
+                            <li>1. Real Madrid</li>
+                            <li>2. FC Barcelone</li>
+                            <li>3. Atlético de Madrid</li>
+                        </ul>
+                        <p><strong>Dernier champion :</strong> Real Madrid (2023-2024)</p>
+                        <p>La Liga est la première division du championnat de football professionnel en Espagne. Elle est connue pour sa haute qualité de jeu et a produit certains des meilleurs joueurs de l'histoire du football.</p>
+                    </div>
+                    <img src="Laligua.png" alt="La Liga" style="max-width: 300px; height: auto;">
+        <!-- Button parametres et position -->
+        <div style="position: absolute; bottom: 100px; left: 50px;">
+            <button onclick="window.location.href='https://www.laliga.com/en-GB';" id="btn">Voir plus</button>
+        </div>
+    </div>
+            </section>
+            
+
+       
+            <section id="Bundesliga">
+                <h2>Bundesliga</h2>
+                <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <div style="flex: 1; margin-right: 20px;">
+                        <p><strong>Date de fondation :</strong> 1963</p>
+                        <p><strong>Top 3 équipes :</strong></p>
+                        <ul>
+                            <li>1. Bayern Munich</li>
+                            <li>2. Borussia Dortmund</li>
+                            <li>3. RB Leipzig</li>
+                        </ul>
+                        <p><strong>Dernier champion :</strong> bayern leverkusen (2023-2024)</p>
+                        <p>La Bundesliga est la première division du championnat de football professionnel en Allemagne. Elle est célèbre pour son atmosphère dans les stades et son haut niveau de compétitivité.</p>
+                    </div>
+                    <img src="Bundesligue.jpeg" alt="Bundesliga" style="max-width: 300px; height: auto;">
+                     
+        <div style="position: absolute; bottom: -390px ; left: 50px;">
+            <button onclick="window.location.href='https://www.bundesliga.com/fr/bundesliga';" id="btn">Voir plus</button>
+        </div>
+                </div>
+            </section>
+            
+      
+
+       
+            <section id="Serie_A">
+                <h2>Serie A</h2>
+                <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <div style="flex: 1; margin-right: 20px;">
+                        <p><strong>Date de fondation :</strong> 1898</p>
+                        <p><strong>Top 3 équipes :</strong></p>
+                        <ul>
+                            <li>1. Juventus FC</li>
+                            <li>2. AC Milan</li>
+                            <li>3. Inter Milan</li>
+                        </ul>
+                        <p><strong>Dernier champion :</strong> Inter Milan (2023-2024)</p>
+                        <p>La Serie A est la première division du championnat de football professionnel en Italie. Elle est réputée pour son histoire riche et son niveau de jeu élevé.</p>
+                    </div>
+                    <img src="Serie A.jpeg" alt="Serie A" style="max-width: 300px; height: auto;">
+                     
+        <div style="position: absolute; bottom: -880px; left: 50px;">
+            <button onclick="window.location.href='https://www.legaseriea.it/en';" id="btn">Voir plus</button>
+        </div>
+                </div>
+            </section>
+            
+        
+
+            <section id="Ligue_1">
+                <h2>Ligue 1</h2>
+                <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <div style="flex: 1; margin-right: 20px;">
+                        <p><strong>Date de fondation :</strong> 1933</p>
+                        <p><strong>Top 3 équipes :</strong></p>
+                        <ul>
+                            <li>1. Paris Saint-Germain</li>
+                            <li>2. Olympique de Marseille</li>
+                            <li>3. AS Monaco</li>
+                        </ul>
+                        <p><strong>Dernier champion :</strong> Paris Saint-Germain (2023-2024)</p>
+                        <p>La Ligue 1 est la première division du championnat de football professionnel en France. Elle est connue pour sa compétitivité et ses clubs historiques.</p>
+                    </div>
+                    <img src="Ligue 1.png" alt="La Ligue 1" style="max-width: 300px; height: auto;">
+                     <!-- parametre button -->
+        <div style="position: absolute; bottom: -1370px; left: 50px;">
+            <button onclick="window.location.href='https://ligue1.com/fr    ';" id="btn">Voir plus</button>
+        </div>
+                </div>
+            </section>
+            
+        
+
+        
+            <section id="Premier_League">
+                <h2>Premier League</h2>
+                <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <div style="flex: 1; margin-right: 20px;">
+                        <p><strong>Date de fondation :</strong> 1992</p>
+                        <p><strong>Top 3 équipes :</strong></p>
+                        <ul>
+                            <li>1. Manchester City</li>
+                            <li>2. Liverpool FC</li>
+                            <li>3. Manchester United</li>
+                        </ul>
+                        <p><strong>Dernier champion :</strong> Manchester City (2023-2024)</p>
+                        <p>La Premier League est la première division du championnat de football professionnel en Angleterre. Elle est réputée pour son intensité et son attractivité mondiale.</p>
+                    </div>
+                    <img src="Premier League.png" alt="La Premier League" style="max-width: 300px; height: auto;">
+                     <!-- parametre button -->
+        <div style="position: absolute; bottom: -1860px; left: 50px;">
+            <button onclick="window.location.href='https://www.premierleague.com/';" id="btn">Voir plus</button>
+        </div>
+                </div>
+            </section>
+            
+        
+    </main>
+
+    <footer>
+        <p>&copy; Top 5 Football Leagues 2024</p>
+    </footer>
+</body>
+</html>
